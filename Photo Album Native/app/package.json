@@ -1,0 +1,6 @@
+{
+    "name": "tns-samples-photo-album-native",
+    "main": "app.js",
+    "version": "0.5.0",
+    "description": "Nativescript Photo Album Application"
+}
