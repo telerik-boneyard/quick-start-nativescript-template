@@ -14,12 +14,6 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
-  "AndroidPermissions": [
-    "android.permission.ACCESS_COARSE_LOCATION",
-    "android.permission.ACCESS_FINE_LOCATION",
-    "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS",
-    "android.permission.ACCESS_MOCK_LOCATION"
-  ],
   "DeviceOrientations": [
     "Portrait",
     "Landscape"
