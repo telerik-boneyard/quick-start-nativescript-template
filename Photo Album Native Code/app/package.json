@@ -1,16 +1,20 @@
 {
     "name": "tns-template-blank",
     "main": "app.js",
-    "version": "0.10.0",
+    "version": "1.1.0",
     "author": "Telerik <support@telerik.com>",
-    "description": "Nativescript blank template",
+    "description": "Nativescript blank project template",
     "license": "BSD",
     "keywords": [
         "telerik",
         "mobile",
+        "nativescript",
+        "{N}",
+        "tns",
+        "appbuilder",
         "template"
     ],
     "repository": {
-        "url": "https://github.com/NativeScript/cross-platform-modules/commit/27a20f5b425e81231ebe53e61a986102a52b7124"
+        "url": "https://github.com/NativeScript/NativeScript/commit/ffc1fcb030cd77e8b630e0f3ef3cf3694e36be43"
     }
 }
