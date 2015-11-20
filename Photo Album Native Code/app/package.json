@@ -1,7 +1,7 @@
 {
     "name": "tns-template-blank",
     "main": "app.js",
-    "version": "1.1.0",
+    "version": "1.4.0",
     "author": "Telerik <support@telerik.com>",
     "description": "Nativescript blank project template",
     "license": "BSD",
@@ -15,6 +15,6 @@
         "template"
     ],
     "repository": {
-        "url": "https://github.com/NativeScript/NativeScript/commit/ffc1fcb030cd77e8b630e0f3ef3cf3694e36be43"
+        "url": "https://github.com/NativeScript/NativeScript/commit/2647ee894483aed4f8d1e2dfdb1784f66d70f4f9"
     }
 }

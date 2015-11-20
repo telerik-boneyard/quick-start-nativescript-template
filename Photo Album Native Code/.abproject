@@ -1,10 +1,10 @@
 {
   "ProjectName": "Photo Album Native Code",
-  "ProjectGuid": "b48be1d1-4005-45a9-aa56-bf381a46db0f",
+  "ProjectGuid": "242a175d-0211-484d-ac73-4b3f9d9c9a9f",
   "projectVersion": 1,
   "AppIdentifier": "com.telerik.PhotoAlbumNativeCode",
-  "DisplayName": "Photo Album",
-  "Author": "Telerik",
+  "DisplayName": "Photo Album Native Code",
+  "Author": "",
   "Description": "Photo Album Native Code",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
