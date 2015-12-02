@@ -1,5 +1,4 @@
 <Page xmlns="http://www.nativescript.org/tns.xsd" xmlns:widgets="utils/widgets" loaded="pageLoaded" actionBarHidden="true">
-
     <GridLayout rows="auto, *">
         <widgets:action-bar />
         <ListView row="1" items="{{ menuItems }}" itemTap="menuItemTap">
