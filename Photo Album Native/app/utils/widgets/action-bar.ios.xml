@@ -1,0 +1,20 @@
+<GridLayout rows="auto, *" cssClass="page-header" loaded="widgetLoaded">
+
+    <GridLayout cssClass="action-bar" columns="auto, *, auto" colSpan="3" style="font-size: 18; padding: 0 10; color: #007aff; background-color: #f0f0f0">
+        <GridLayout col="0" columns="16, *" tap="backTap" orientation="horizontal" cssClass="action-wrap" horizontalAlignment="left" verticalAlignment="center" >
+            <Button text="⬗" visibility="{{ backButtonHidden ? 'collapsed' : 'visible' }}" verticalAlignment="center" isUserInteractionEnabled="false"
+                    style="font-size: 44; height: 16; margin: -7 8 0 0; width: 12" />
+            <Button col="1" text="Back" visibility="{{ backButtonHidden ? 'collapsed' : 'visible' }}" isUserInteractionEnabled="false" />
+        </GridLayout>
+
+        <Label col="1" text="{{ pageTitle }}" cssClass="action-bar-title" horizontalAlignment="center" verticalAlignment="center" style="margin: 10 0" />
+
+        <StackLayout col="2" orientation="horizontal" horizontalAlignment="right" minWidth="16" verticalAlignment="center">
+            <Button text="Index" tap="onIndex" visibility="{{ backButtonHidden ? 'collapsed' : 'visible' }}" />
+        </StackLayout>
+    </GridLayout>
+
+    <!-- Workaround for one sided border -->
+    <StackLayout row="1" cssClass="action-bar-border" height="1" backgroundColor="#ddd" />
+
+</GridLayout>

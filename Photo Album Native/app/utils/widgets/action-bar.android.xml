@@ -1,0 +1,19 @@
+<GridLayout rows="auto, *" cssClass="page-header">
+
+    <GridLayout cssClass="action-bar" columns="47, *" colSpan="3">
+        <GridLayout columns="12, 30" tap="backTap" orientation="horizontal" cssClass="action-wrap" horizontalAlignment="left">
+            <Image col="0" width="12" src="~/images/icons/ic_arrow_back.png" visibility="{{ backButtonHidden ? 'collapsed' : 'visible' }}" />
+            <Image col="1" width="30" heigth="30" src="~/images/icons/nativescript_logo.png" />
+        </GridLayout>
+
+        <Label col="2" text="{{ pageTitle }}" cssClass="action-bar-title" />
+
+        <StackLayout col="2" orientation="horizontal" horizontalAlignment="right" minWidth="35" verticalAlignment="center">
+            <Image width="24" heigth="24" src="~/images/icons/menu.png" tap="onIndex" visibility="{{ backButtonHidden ? 'collapsed' : 'visible' }}" />
+        </StackLayout>
+    </GridLayout>
+
+    <!-- Workaround for one sided border -->
+    <StackLayout row="1" cssClass="action-bar-border" height="1"></StackLayout>
+
+</GridLayout>

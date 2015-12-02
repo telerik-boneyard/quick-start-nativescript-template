@@ -1,0 +1,14 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" xmlns:widgets="utils/widgets" loaded="pageLoaded" actionBarHidden="true">
+
+    <GridLayout rows="auto, *">
+        <widgets:action-bar />
+        <ListView row="1" items="{{ menuItems }}" itemTap="menuItemTap">
+            <ListView.itemTemplate>
+                <GridLayout columns="48, *" rows="*">
+                    <Image src="{{ icon }}" width="32" height="32" margin="8 6" />
+                    <Label col="1" text="{{ title }}" textWrap="true" />
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>
