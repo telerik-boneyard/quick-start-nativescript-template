@@ -1,17 +1,13 @@
 'use strict';
 var isInit = true,
-    helpers = require('../../utils/widgets/helper'),
-    // additional requires
-    viewModel = require('./homeView-view-model');
+    helpers = require('../../utils/widgets/helper');
 
 // additional functions
 function pageLoaded(args) {
     var page = args.object;
-
     helpers.platformInit(page);
-    page.bindingContext = viewModel;
-    // additional pageLoaded
 
+    // additional pageLoaded
     if (isInit) {
         isInit = false;
 
@@ -20,7 +16,6 @@ function pageLoaded(args) {
 }
 
 // START_CUSTOM_CODE_homeView
-// Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes
-
+// Add custom code here.
 // END_CUSTOM_CODE_homeView
 exports.pageLoaded = pageLoaded;
