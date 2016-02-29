@@ -1,6 +1,6 @@
 {
   "ProjectName": "Photo Album Native",
-  "ProjectGuid": "0e4e4d02-1e6c-4bbb-8974-a6cdb267c706",
+  "ProjectGuid": "aa52f3e9-2728-4a9c-a983-e63c6f675caa",
   "projectVersion": 1,
   "AppIdentifier": "com.telerik.PhotoAlbumNative",
   "DisplayName": "Photo Album Native",
@@ -23,6 +23,6 @@
   ],
   "AndroidHardwareAcceleration": "false",
   "iOSStatusBarStyle": "Default",
-  "FrameworkVersion": "1.4.3",
+  "FrameworkVersion": "1.5.2",
   "Framework": "NativeScript"
 }

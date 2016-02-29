@@ -1,13 +1,19 @@
 'use strict';
-var frame = require('ui/frame');
 
-function backTap() {
-    frame.topmost().goBack();
+var frameModule = require('ui/frame');
+
+function onBack() {
+    // Android only
+    var topmost = frameModule.topmost();
+
+    topmost.goBack();
 }
 
 function onIndex() {
-    frame.topmost().navigate('navigation/navigation');
+    var topmost = frameModule.topmost();
+
+    topmost.navigate('navigation/navigation');
 }
 
-exports.backTap = backTap;
+exports.onBack = onBack;
 exports.onIndex = onIndex;

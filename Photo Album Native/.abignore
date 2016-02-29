@@ -33,7 +33,7 @@ obj/**/*
 
 # Source control files
 .gitignore
-.git/**/*
+**/.git/**/*
 
 # AppBuilder files
 .abignore
@@ -46,6 +46,7 @@ obj/**/*
 # TypeScript files
 **/*.ts
 **/*.map
+tsconfig.json
 
 # Other
 **/*.bak

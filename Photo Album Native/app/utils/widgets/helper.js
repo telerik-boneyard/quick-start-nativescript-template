@@ -12,7 +12,7 @@ function platformInit(page) {
     }
 
     if (ios) {
-        ios.navBarVisibility = 'never';
+        ios.navBarVisibility = 'always';
         // Restore back swipe gesture
         if (top.canGoBack()) {
             page.ios.navigationController.interactivePopGestureRecognizer.delegate = page.ios;
