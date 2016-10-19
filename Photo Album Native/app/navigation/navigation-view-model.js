@@ -5,8 +5,8 @@ var menuItems,
 
 menuItems = [{
     "title": "Home View",
-    "modulePath": "components/homeView/homeView",
-    "icon": "\uE0DD"
+    "moduleName": "components/homeView/homeView",
+    "icon": "\ue0dd"
 }];
 
 navigationViewModel.set('menuItems', menuItems);

@@ -48,7 +48,26 @@ function onOpenUrl(url) {
     }
 }
 
+function processImage(img, dbConfiguration) {
+    function isAbsolute(img) {
+        if (img && (img.slice(0, 5) === 'http:' || img.slice(0, 6) === 'https:' || img.slice(0, 2) === '//' || img.slice(0, 5) === 'data:')) {
+            return true;
+        }
+        return false;
+    }
+
+    if (!img) {
+        var empty1x1png = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVQI12NgYAAAAAMAASDVlMcAAAAASUVORK5CYII=';
+        img = 'data:image/png;base64,' + empty1x1png;
+    } else if (!isAbsolute(img)) {
+        var setup = dbConfiguration || {};
+        img = setup.scheme + ':' + setup.url + setup.appId + '/Files/' + img + '/Download';
+    }
+    return img;
+}
+
 exports.back = back;
 exports.navigate = navigate;
 exports.platformInit = platformInit;
 exports.onOpenUrl = onOpenUrl;
+exports.processImage = processImage;

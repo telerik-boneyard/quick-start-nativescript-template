@@ -102,6 +102,50 @@ switch {
     text-align: center;
 }
 
+.h1 {
+    font-size: 32;
+}
+
+.h2 {
+    font-size: 26;
+}
+
+.h3 {
+    font-size: 20;
+}
+
+.h4 {
+    font-size: 16;
+}
+
+.h5 {
+    font-size: 12;
+}
+
+.h6 {
+    font-size: 8;
+}
+
+
+/*Alignment*/
+
+.image-field {
+    height: 50;
+    vertical-align: center;
+}
+
+.alignment-left {
+    horizontal-align: left;
+}
+
+.alignment-center {
+    horizontal-align: center;
+}
+
+.alignment-right {
+    horizontal-align: right;
+}
+
 
 /* START_CUSTOM_CODE_nativeScriptApp */
 
